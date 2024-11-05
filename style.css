@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    max-width: 950px;
+    padding-top: 20px;
+}
+form{
+    max-width: 900px;
+    margin: 20px auto; 
+    padding: 30px; 
+    border: 2px solid #0a0a0a; 
+    border-radius: 2px;
+}
+h1{
+    font-size: 30px;
+    margin-right: 80px;
+    font-weight: bold;
+}
+hr{
+    width: 700px;
+    border: 1px solid #0a0a0a;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    
+}
+label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+input{
+    width: 700px;
+    padding: 2px;
+    border-radius: 4px;
+    border: 2px solid #0a0a0a;
+    margin-bottom: 10px;
+}
+.d-flex i{
+    display: flex;
+    font-size: 30px;
+    margin-left: 15px;
+}
+textarea{
+    width: 700px;
+    border: 2px solid #0a0a0a;
+}
+#details{
+    margin-top: 25px;
+    gap: 50px;
+}
+#details input {
+    width: 200px;
+    border-radius: 0;
+    
+}
+select{
+    width: 200px;
+    border: 2px solid #0a0a0a;
+    font-size: 15px;
+}
+#btn{
+    margin-top: 25px;
+    margin-right: 60px;
+    justify-content: end;
+    gap: 20px;
+    padding: 15px;
+}
+button{
+    width: 120px;
+    padding: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(20, 20, 20, 0.902);
+}
+h2{
+    text-align: left;
+    margin-left: 75px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.line2{
+    width: 850px;
+    margin-left: 75px;
+    border-color: #0a0a0a;
+}
+table {
+    width: 850px; 
+    margin-top: 30px; 
+    margin-left: 75px;
+    border-collapse: collapse; 
+}
+th, td { 
+    border: 2px solid #0a0a0a; 
+    padding: 8px; 
+    text-align: left; 
+}
+th { 
+    background-color: #f2f2f2; 
+}
+.error{
+    color: red;
+    text-align: left;
+}
+#deleteSelectedBtn{
+    width: 120px;
+    font-size: 15px;
+    margin-left: 480px;
+    
+}
+td input{
+    width: 20px;
+}
+#checkbox{
+    width: 50px;
+}
+td button{
+    width: 80px;
+    border: none;
+    font-size: 15px;
+    box-shadow: none;
+    margin: 2px;
+}
